@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class CheckState {
 
-    public static void main(String args){
+    public static void main(String[] args){
 
         Random random = new Random();
         boolean isCapital = random.nextBoolean();
