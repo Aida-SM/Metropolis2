@@ -12,7 +12,13 @@ public class CheckState {
         Capital capital = new Capital(numberOfCitizen,taxesPerCitizen);
         NotCapital notCapital = new NotCapital(numberOfCitizen,taxesPerCitizen);
 
+        if(isCapital){
+            if(capital.isMetropolis()|| notCapital.isMetropolis())
+                System.out.println("This city is Metropolis");
+            else
+                System.out.println("This city is not Metropolis");
 
+        }
 
 
 
