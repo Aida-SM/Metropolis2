@@ -1,4 +1,4 @@
-public class City {
+public abstract class City {
 
     int numberOfCitizens;
     private static final int MONTH_IN_A_YEAR = 12 ;
@@ -17,5 +17,7 @@ public class City {
 
         return numberOfCitizens * taxesPerCitizen * MONTH_IN_A_YEAR ;
     }
+
+    public abstract boolean isMetropolis();
 }
 
