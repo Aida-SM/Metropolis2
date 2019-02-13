@@ -4,7 +4,7 @@ public class Capital extends City {
         super(numberOfCitizens, taxesPerCitizen);
     }
 
-    public boolean isMeropolis(){
+    public boolean isMetropolis(){
         return getNumberOfCitizens() > 100000 && getNumberOfCitizens() > 720000000.0 ;
     }
 
