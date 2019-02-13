@@ -9,9 +9,11 @@ public class CheckState {
         int numberOfCitizen = random.nextInt(1000000);
         double taxesPerCitizen = random.nextDouble() * 500;
 
-        City city = new City(numberOfCitizen,taxesPerCitizen);
-        Capital capital = new Capital();
-        Metropolis metropolis = new Metropolis();
+        Capital capital = new Capital(numberOfCitizen,taxesPerCitizen);
+        NotCapital notCapital = new NotCapital(numberOfCitizen,taxesPerCitizen);
+
+
+
 
 
 
